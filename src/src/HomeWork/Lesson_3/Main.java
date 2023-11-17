@@ -42,7 +42,7 @@ public class Main {
         }
         System.out.println();
         System.out.println();
-        // 9.Задача
+        // 9. Задача
         int n = 5;
         int[][] arr4 = new int[n][n];
         for (int i = 0; i < n; i++) {

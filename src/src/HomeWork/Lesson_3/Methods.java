@@ -1,7 +1,8 @@
 package HomeWork.Lesson_3;
 
 public class Methods {
-    public void sumOfTwoNumbers() {  //1.Задание
+    //1.Задание
+    public void sumOfTwoNumbers() {
         int a = 10;
         int b = 2;
         int c = a + b;
@@ -11,15 +12,15 @@ public class Methods {
             System.out.println(false);
         }
     }
-
-    public void printLine(int a) {  //2. Задача
+    //2. Задача
+    public void printLine(int a) {
         String text = "Hello world";
         for (int i = 0; i < a; i++) {
             System.out.println(text);
         }
     }
-
-    public void outputtingNumberToTheConsole(int numberOfConsole) { //3. Задача
+    //3. Задача
+    public void outputtingNumberToTheConsole(int numberOfConsole) {
         if (numberOfConsole >= 0) {
             System.out.println("Число, которое передает метода, положительное");
         } else {
