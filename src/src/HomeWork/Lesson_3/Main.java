@@ -62,6 +62,7 @@ public class Main {
         //10. Задача
         System.out.println("10 задача");
         //System.out.println(methods.returningOneDimensionalArray(5,22));
+        System.out.println();
         int[] massiveInitialValue = massive(7, 22);
         for (int i = 0; i < massiveInitialValue.length; i++) {
             System.out.print(massiveInitialValue[i] + " ");
